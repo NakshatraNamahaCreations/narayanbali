@@ -1,0 +1,167 @@
+.section {
+  padding-top: 70px;
+  background: linear-gradient(180deg, #fff8ef 0%, #ffffff 100%);
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(28px, 3vw, 38px);
+  color: #3a3a3a;
+  font-weight: 700;
+  margin: 0;
+}
+
+.heading span {
+  color: #b30000;
+}
+
+.subheading {
+  font-family: "Poppins", sans-serif;
+  font-size: 15.5px;
+  color: #5b4c46;
+  max-width: 640px;
+  margin: 12px auto 0;
+  line-height: 1.6;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CARD */
+.card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 22px 40px;
+  text-align: center;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE WRAP */
+.imgWrap {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: rgba(255, 224, 224, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 3px solid #ffb347;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.iconImg {
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .iconImg {
+  transform: scale(1.08);
+}
+
+/* TEXT */
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #2b2b2b;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 14.5px;
+  color: #5b4c46;
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* STEP NUMBER */
+.stepNum {
+  position: absolute;
+  bottom: 8px;
+  right: 14px;
+  font-size: 58px;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+  color: rgba(178, 0, 0, 0.08);
+  pointer-events: none;
+  user-select: none;
+}
+
+.aboutHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.aboutText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+.aboutImageCard {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.aboutImage {
+  object-fit: cover;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .aboutHeading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .aboutText {
+    text-align: center;
+  }
+  .aboutImageCard {
+    margin-top: 2rem;
+    aspect-ratio: 16 / 9;
+  }
+}

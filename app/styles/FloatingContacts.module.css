@@ -1,0 +1,81 @@
+.floatingContacts {
+  position: fixed;
+  z-index: 9999;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.left {
+  left: 10px;
+  right: auto;
+}
+
+.toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #25d366;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.closed .list {
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.open .list {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: translateY(-3px);
+}
+
+.item img {
+  width:40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Optional: platform-specific hover glow colors */
+.wh:hover { box-shadow: 0 0 10px #25d366; }
+.fb:hover { box-shadow: 0 0 10px #1877f2; }
+.ig:hover { box-shadow: 0 0 10px #e1306c; }
+.yt:hover { box-shadow: 0 0 10px #ff0000; }
+.call:hover { box-shadow: 0 0 10px #0b8043; }

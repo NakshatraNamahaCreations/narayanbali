@@ -1,0 +1,175 @@
+.footer {
+  background: linear-gradient(135deg, #eae4da, #a89b84);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.text {
+  font-size: 15px;
+  color: #333;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.socials a img {
+  width: 36px;
+  height: 36px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.socials a img:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Quick Links */
+.links {
+  list-style: none;
+  padding: 0;
+}
+.links li {
+  margin-bottom: 8px;
+}
+.links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+}
+.links a:hover {
+  color: #6c0d18;
+}
+
+/* Pujas */
+.pujaItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.pujaImg {
+  border-radius: 6px;
+}
+.pujaTitle {
+  font-weight: 600;
+  margin: 0;
+  font-size: 15px;
+}
+.pujaDate {
+  font-size: 14px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Subscribe form */
+.subscribeForm {
+  display: flex;
+  border-radius: 20px;
+
+  margin-top: 10px;
+}
+.emailInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.subscribeBtn {
+  background: #6c0d18;
+  color: #fff;
+  border: none;
+  padding: 10px  8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.subscribeBtn:hover {
+  background: #991419;
+}
+
+/* Copyright Bar */
+.copyright {
+  background: #6c0d18;
+  padding: 12px 0;
+  font-size: 14px;
+}
+.copyright a {
+  color: #fff;
+  text-decoration: underline;
+}
+.policyLinks {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.policyLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+.policyLinks a:hover {
+  text-decoration: underline;
+}
+
+/* Address / Contact Info */
+.addressBlock {
+  margin-top: 10px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+}
+
+.email {
+  color: #333;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.email:hover {
+  color: #6c0d18;
+  text-decoration: underline;
+}
+
+.contactLink{
+    color: #333;
+}
+.contactLink:hover{
+     color: #6c0d18;
+}

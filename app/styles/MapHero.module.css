@@ -1,0 +1,23 @@
+.mapWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background: #fff;
+}
+
+.mapFrame {
+  width: min(1100px, 92%);
+  height: 420px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+
+@media (max-width: 992px) {
+  .mapFrame { height: 360px; }
+}
+@media (max-width: 576px) {
+  .mapFrame { height: 280px; }
+}

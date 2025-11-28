@@ -1,0 +1,85 @@
+.gallery {
+  padding: 60px 0;
+  background: #f7f1e7;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(28px, 3.2vw, 44px);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.heading span {
+  color: #b1251a;
+}
+
+.intro {
+  max-width: 620px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4a3a32;
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  margin: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+/* image container (16:10 ratio) */
+.imageWrap {
+  position: relative;
+  width: 100%;
+  padding-top: 62.5%; /* 16:10 aspect ratio */
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.card:hover .img {
+  transform: scale(1.06);
+}
+
+/* caption */
+.caption {
+  padding: 10px 14px 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3a251c;
+  text-align: center;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+  .gallery {
+    padding: 40px 0 50px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .intro {
+    font-size: 13.5px;
+  }
+}

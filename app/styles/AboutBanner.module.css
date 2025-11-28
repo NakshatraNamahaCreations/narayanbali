@@ -1,0 +1,82 @@
+.banner {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* background image + dark overlay */
+  background-image:
+    linear-gradient(to bottom, rgba(87, 87, 87, 0.396), rgba(90, 90, 90, 0.133)),
+    url("/images/background14.png"); /* <-- change to your image */
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  color: #fff;
+  padding: 90px 0 80px; /* room for navbar above */
+  font-family: "Playfair Display", serif;
+}
+
+.inner {
+  position: relative;
+  max-width: 780px;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFF;
+   font-weight: 800;
+}
+
+.breadcrumb a {
+    color: #FFF;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.sep {
+  margin: 0 6px;
+  opacity: 0.8;
+}
+
+/* Main title */
+.title {
+  font-size: clamp(28px, 3.2vw, 40px);
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+/* Short / medium content under title */
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+   color: #FFF;
+  max-width: 620px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+/* Responsive tweaks */
+@media (max-width: 575.98px) {
+  .banner {
+    min-height: 220px;
+    padding: 80px 0 60px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}

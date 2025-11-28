@@ -1,0 +1,210 @@
+/* app/components/HeroSlider.module.css */
+.heroCarouselWrapper {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+/* Slide wrapper */
+.carouselSlide {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+
+/* Banner slide — parent must be positioned for next/image fill */
+.carouselBannerSlide {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Containers that hold the Image (next/image fill) */
+.desktopOnly,
+.mobileOnly {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* default: show desktop, hide mobile */
+.mobileOnly {
+  display: none;
+}
+
+/* overlay and captions */
+.blackOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(33, 33, 33, 0.4);
+}
+
+.carouselCaptionLeft {
+  position: absolute;
+  top: 26%;
+  left: 5%;
+  z-index: 2;
+  color: white;
+  max-width: 700px;
+}
+
+.carouselCaptionLeft h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.carouselCaptionLeft p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* buttons and indicators */
+.customIndicators {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  z-index: 2;
+}
+
+.indicatorDot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.progressBarFill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ffcf40;
+  width: 0%;
+}
+
+.fill {
+  animation: fillBar 10s linear forwards;
+}
+
+@keyframes fillBar {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+/* CTA glow button */
+.glowButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(90deg, #ffcf40, #ff914d);
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.759);
+}
+
+.glowButton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  border: 2px solid #f7d87a;
+  opacity: 0;
+  animation: pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow {
+  0% { opacity: 0.5; transform: scale(1); }
+  70% { opacity: 0; transform: scale(1.4); }
+  100% { opacity: 0; transform: scale(1.4); }
+}
+
+.glowIcon {
+  font-size: 1.2rem;
+  animation: ringPulse 1.5s infinite ease-in-out;
+}
+
+@keyframes ringPulse {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(10deg); }
+}
+
+/* Responsive: swap to mobile image & center caption on small screens */
+@media (max-width: 450px) {
+  .heroCarouselWrapper {
+    height: 480px;
+    overflow: visible;
+  }
+  .carouselSlide {
+    height: 480px;
+  }
+  .carouselBannerSlide {
+    height: 480px;
+  }
+  .mobileOnly img,
+.carouselBannerImage {
+  object-fit: contain !important;
+  object-position: center !important;
+}
+.carouselCaptionLeft {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 100%;
+}
+  .mobileOnly {
+    display: block;
+    margin-top: 60px; /* move image downward */
+  }
+  /* show mobile image, hide desktop image */
+  .desktopOnly { display: none; }
+  .mobileOnly { display: block; }
+
+  /* center caption on mobile */
+  .carouselCaptionLeft {
+    position: absolute;
+    top: 50%;                 /* move to middle */
+    left: 50%;                /* horizontal center */
+    transform: translate(-50%, -50%);   /* perfect centering */
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+    padding: 0 12px;
+    z-index: 2;
+  }
+  
+  .carouselCaptionLeft h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
+  }
+  .carouselCaptionLeft p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .customIndicators {
+    bottom: 30px;
+  }
+}

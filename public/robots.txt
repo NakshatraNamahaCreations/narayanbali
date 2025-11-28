@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block private system folders (optional)
+Disallow: /admin/
+Disallow: /server/
+Disallow: /api/
+
+# Your sitemap URL (replace with your real domain)
+Sitemap: https://narayanabalipoojaservices.com/sitemap.xml

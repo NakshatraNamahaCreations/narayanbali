@@ -1,0 +1,157 @@
+/* PrimaryServices.module.css */
+
+/* HERO: full width image with centered circular play button */
+.heroSection {
+  width: 100%;
+  position: relative;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 555px;
+ margin-top: 5%;
+}
+
+.heroInner {
+  width: 100%;
+  max-width: 1400px;
+  
+  margin: 0 auto;
+}
+
+.heroImageWrap {
+  position: relative;
+  width: 100%;
+  height: auto;             /* ✅ allow auto height */
+  aspect-ratio: unset;      /* ✅ prevent forced cropping */
+  cursor: pointer;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.heroImageWrap img {
+  position: static !important; /* ✅ reset next/image absolute fill */
+  width: 100%;
+  height: auto !important;     /* ✅ show full image */
+  object-fit: contain !important; /* ✅ no cropping */
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0.45) 100%); /* subtle darkening */
+  z-index: 1;
+}
+
+/* big centered play button (circular, glass + icon) */
+.centerPlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 96px;
+  height: 96px;
+  border-radius: 999px;
+  border: none;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95), rgba(255,255,255,0.85));
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  display: grid;
+  place-items: center;
+  z-index: 2;
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+/* small pulse behind the center button */
+.centerPlay::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 999px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(255,64,64,0.14) 0%, rgba(255,64,64,0) 60%);
+  filter: blur(8px);
+  z-index: 0;
+  animation: pulse 2.2s infinite;
+}
+
+.centerPlay svg { z-index: 3; width: 44px; height: 44px; }
+
+/* pulse animation */
+@keyframes pulse {
+  0% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.9; }
+  60% { transform: translate(-50%, -50%) scale(1.15); opacity: 0; }
+  100% { transform: translate(-50%, -50%) scale(1.3); opacity: 0; }
+}
+
+/* FEATURES (kept card styling only) */
+.features { margin-top: 32px; padding: 40px 0 80px; }
+.card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(0,0,0,.08);
+  transition: transform .18s ease, box-shadow .18s ease;
+  min-height: 260px;
+}
+.card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,.12); }
+
+.cardBg {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  filter: brightness(.95);
+  opacity: 0.06; /* subtle background image, not dominant */
+}
+.cardInner {
+  position: relative; z-index: 2;
+  padding: 28px 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(255,255,255,1) 100%);
+  height: 100%;
+  display: grid; align-content: start; justify-items: center; gap: 8px;
+}
+.cardInner h5 { font-weight: 700; color: #2b2b2b; text-align: center; }
+.cardInner p  { color: #5f5f5f; margin: 0; text-align: center; }
+
+.link { font-weight: 700; color: #b71c1c; text-decoration: none; }
+.link:hover { text-decoration: underline; }
+
+/* MODAL (full screen dark backdrop, centered video box) */
+.modal {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,.78);
+  display: grid; place-items: center;
+  padding: 20px;
+}
+.modalBox {
+  width: min(1100px, 95%);
+  background: transparent; border-radius: 10px; overflow: hidden; position: relative;
+}
+.modalClose {
+  position: absolute; top: 8px; right: 10px;
+  background: transparent; border: 0; color: #fff; font-size: 28px; line-height: 1;
+  cursor: pointer; z-index: 3;
+}
+.embedWrap { position: relative; aspect-ratio: 16 / 9; width: 100%; background:#000; }
+.embedWrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .heroSection { height: auto; }
+  .heroImageWrap { height: 360px; }
+}
+@media (max-width: 430px) {
+
+  .heroImageWrap { height: 210px !important; }
+}
+@media (max-width: 768px) {
+  .heroSection { height: 400px I !important; }
+  .heroImageWrap { height: 430px; }
+  .centerPlay { width: 68px; height: 68px; }
+  .centerPlay::after { width: 110px; height: 110px; }
+  .embedWrap { aspect-ratio: 16 / 9; }
+}

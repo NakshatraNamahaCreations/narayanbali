@@ -1,0 +1,82 @@
+.contactSection {
+  position: relative;
+  background-image: url("/images/background12.png");
+  background-size: cover;         /* ensures image fills entire area */
+  background-position: center;    /* keeps it centered */
+  background-repeat: no-repeat;
+  min-height: 40vh;              /* full vertical fit */
+  padding: 30px 0;                /* breathing room for form */
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Slightly darker overlay for a softer, dull background */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);  /* increased from 0.45 → 0.6 */
+  backdrop-filter: blur(2px);      /* softens the background */
+  z-index: 0;
+}
+
+/* All elements above overlay */
+.contactSection * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Headings */
+.kicker {
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: #ffcc66;
+}
+.title {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: clamp(28px, 3.2vw, 44px);
+}
+.underline {
+  display: inline-block;
+  width: 64px;
+  height: 4px;
+  background: #b71c1c;
+  border-radius: 999px;
+  margin-top: 10px;
+}
+
+/* Center form */
+.formCard {
+  border-radius: 16px;
+  padding: 36px 32px;
+  background: rgba(255, 255, 255, 0.9); /* a bit more opaque for contrast */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Input fields */
+.formCard :global(.form-control) {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 14px;
+  font-size: 15px;
+}
+.formCard :global(.form-control:focus) {
+  border-color: #b71c1c;
+  box-shadow: 0 0 0 0.2rem rgba(183, 28, 28, 0.1);
+}
+
+/* Button */
+.cta {
+  background: #b71c1c;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 12px 32px;
+  border: none;
+  transition: background 0.3s ease;
+}
+.cta:hover {
+  background: #991419;
+}
+
