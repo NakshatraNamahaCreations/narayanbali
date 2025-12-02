@@ -37,11 +37,13 @@ export default function FooterSection() {
           <div className="col-md-6 col-lg-3">
             <h5 className={styles.heading}>Quick Links</h5>
             <ul className={styles.links}>
-              <li><a href="#">Online Puja Booking</a></li>
-              <li><a href="#">Temple Puja Booking</a></li>
-              <li><a href="#">Priest Booking</a></li>
-              <li><a href="#">Vedic Ashirvaad</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/services/narayan-bali-pooja-in-srirangapatna">Narayan Bali</a></li>
+              <li><a href="/services/pinda-pradhana-in-srirangapatna">Pinda Pradhana</a></li>
+              <li><a href="/services/tila-homa-in-srirangapatna">Tila Homa</a></li>
+              <li><a href="/services/kumbha-vivaha-in-srirangapatna">Kumbha Vivaha</a></li>
+              <li><a href="/services/kadali-vivaha-in-srirangapatna">Kadali Vivaha</a></li>
+               <li><a href="/services/sarpa-dosha-nivarana-in-srirangapatna">Sarpa Dosha Nivarana</a></li>
+               <li><a href="/services/pithru-dosha-pooja-in-srirangapatna">Pitru Dosha Nivarana</a></li>
             </ul>
           </div>
 

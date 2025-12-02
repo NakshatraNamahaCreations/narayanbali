@@ -18,7 +18,7 @@ export const metadata = {
     title: "Contact Narayan Bali Pooja Services | Book Your Ritual",
     description:
       "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pithru Dosha, Thila Homa, or Pinda Pradhana pooja",
-    url: "https://narayanabalipoojaservices.com/contact",
+    url: "https://narayanabalipoojaservices.com/contact-us",
     type: "website",
     images: [
       {
@@ -32,7 +32,7 @@ export const metadata = {
     locale: "en_IN",
   },
   alternates: {
-    canonical: "https://narayanabalipoojaservices.com/contact",
+    canonical: "https://narayanabalipoojaservices.com/contact-us",
   },
   twitter: {
     card: "summary_large_image",
