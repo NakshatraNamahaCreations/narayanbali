@@ -179,26 +179,7 @@ const jsonLdGraph = {
 export default function ServicesPage() {
   return (
     <>
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords.join(", ")} />
-        <link rel="canonical" href={metadata.alternates.canonical} />
-
-        {/* Open Graph */}
-        <meta property="og:title" content="Vedic Rituals & Pooja Services | Narayan Bali, Thila Homa" />
-        <meta property="og:description" content="Explore all our spiritual services Narayan Bali Pooja, Pithru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar" />
-        <meta property="og:url" content="https://narayanabalipoojaservices.com/services" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://narayanabalipoojaservices.com/images/services-og.jpg" />
-        <meta property="og:site_name" content={metadata.openGraph.siteName} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Vedic Rituals & Pooja Services | Narayan Bali, Thila Homa" />
-        <meta name="twitter:description" content="Explore all our spiritual services Narayan Bali Pooja, Pithru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar" />
-        <meta name="twitter:image" content="https://narayanabalipoojaservices.com/images/services-og.jpg" />
-      </Head>
+   
 
       {/* JSON-LD structured data injected via next/script */}
       <Script

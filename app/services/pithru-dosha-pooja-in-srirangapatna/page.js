@@ -1,6 +1,5 @@
 7// app/page.js
 import Script from "next/script";
-import Head from "next/head";
 import FeaturedPujas2 from "../../components/FeaturedPujas2";
 import FooterSection from "../../components/FooterSection";
 import StaticNavbarPuja from "../../components/StaticNavbarPuja";
@@ -10,6 +9,7 @@ import TestimonialsCarousel from "../../components/Testimonials";
 import FloatingContacts from "../../components/FloatingContacts";
 import WhyChooseUs7 from "../../components/WhyChooseUs7";
 import FloatingContacts2 from "../../components/FloatingContacts2";
+
 export const metadata = {
   title: "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
   description:
@@ -17,14 +17,16 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://narayanabalipoojaservices.com/pithru-dosha-in-srirangapatna",
+      "https://narayanabalipoojaservices.com/services/pithru-dosha-in-srirangapatna",
   },
+keywords:
+  "pithru dosha pooja in srirangapatna, pitru dosha nivarana, pitrudosha parihara pooja, pitra dosh puja karnataka, srirangapatna pitru dosha remedy, pitru dosha pooja procedure, pitra dosh nivaran vidhi, pitru dosha effects remedy, pitru dosha pooja sangama, pitra dosh dosha nivaran pooja, pitru karma rituals srirangapatna, shraddha karma pooja, garuda purana pitru rituals, ancestor dosha parihara pooja, pitru dosha pooja booking",
 
   openGraph: {
     title: "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
     description:
       "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
-    url: "https://narayanabalipoojaservices.com/pithru-dosha-in-srirangapatna",
+    url: "https://narayanabalipoojaservices.com/services/pithru-dosha-in-srirangapatna",
     type: "website",
     images: [
       {
@@ -276,59 +278,12 @@ const jsonLd = {
 export default function Home() {
   return (
     <>
-      <Head>
-  {/* Primary Meta Tags */}
-  <title>Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana</title>
-  <meta
-    name="description"
-    content="Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama."
-  />
-
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/pithru-dosha-in-srirangapatna"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana"
-  />
-  <meta
-    property="og:description"
-    content="Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/pithru-dosha-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/pithru-dosha.jpg"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/pithru-dosha.jpg"
-  />
-    <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-
-</Head>
+        <Script
+        id="pitru-dosha-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
     <StaticNavbarPuja/>
      <AboutBanner/>

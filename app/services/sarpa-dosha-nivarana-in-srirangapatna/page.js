@@ -1,6 +1,5 @@
 // app/page.js
 import Script from "next/script";
-import Head from "next/head";
 import FeaturedPujas2 from "../../components/FeaturedPujas2";
 import FooterSection from "../../components/FooterSection";
 import StaticNavbarPuja from "../../components/StaticNavbarPuja";
@@ -20,6 +19,8 @@ export const metadata = {
     canonical:
       "https://narayanabalipoojaservices.com/services/sarpa-dosha-nivarana-in-srirangapatna",
   },
+keywords:
+  "sarpa dosha nivarana in srirangapatna, naga dosha ritual, sarpa dosha pooja karnataka, naga dosha nivarana pooja, sarpa samskara pooja, sarpa dosha parihara srirangapatna, kala sarpa dosha remedy, sarpa dosha effects, naga dosha pooja procedure, sarpa dosha pooja sangama, naga dosha priests srirangapatna, serpent dosha nivarana, sarpa dosha parihara pooja, naga dosha dosha remedy, sarpa dosha pooja booking",
 
   openGraph: {
     title: "Sarpa Dosha Nivarana in Srirangapatna | Naga Dosha Ritual",
@@ -270,59 +271,13 @@ const jsonLd = {
 export default function Home() {
   return (
     <>
-     <Head>
-  {/* Primary Meta Tags */}
-  <title>Sarpa Dosha Nivarana in Srirangapatna | Naga Dosha Ritual</title>
-  <meta
-    name="description"
-    content="Perform Sarpa Dosha Nivarana in Srirangapatna for Naga Dosha removal, marriage relief, and fertility blessings with experienced priests at the sacred Sangama."
-  />
 
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/sarpa-dosha-nivarana-in-srirangapatna"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Sarpa Dosha Nivarana in Srirangapatna | Naga Dosha Ritual"
-  />
-  <meta
-    property="og:description"
-    content="Perform Sarpa Dosha Nivarana in Srirangapatna for Naga Dosha removal, marriage relief, and fertility blessings with experienced priests at the sacred Sangama."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/sarpa-dosha-nivarana-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/sarpa-dosha.jpg"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Sarpa Dosha Nivarana in Srirangapatna | Naga Dosha Ritual"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Sarpa Dosha Nivarana in Srirangapatna for Naga Dosha removal, marriage relief, and fertility blessings with experienced priests at the sacred Sangama."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/sarpa-dosha.jpg"
-  />
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-
-</Head>
+        <Script
+        id="sarpa-dosha-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
     <StaticNavbarPuja/>
      <AboutBanner/>

@@ -1,6 +1,5 @@
   // app/page.js
-
-  import Head from "next/head";
+import Script from "next/script";
   import FeaturedPujas2 from "../../components/FeaturedPujas2";
   import FooterSection from "../../components/FooterSection";
   import StaticNavbarPuja from "../../components/StaticNavbarPuja";
@@ -55,7 +54,7 @@
         }
       ]
     },
-    alternates: { canonical: "https://narayanabalipoojaservices.com/services" }
+    alternates: { canonical: "https://narayanabalipoojaservices.com/services/kadali-vivaha-in-srirangapatna" }
   };
 
   const jsonLd = {
@@ -286,58 +285,13 @@
   export default function Home() {
     return (
       <>
-      <Head>
-  {/* Primary Meta Tags */}
-  <title>Kadali Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual</title>
-  <meta
-    name="description"
-    content="Perform Kadali Vivaha in Srirangapatna for Mangal Dosha removal and marriage harmony. Experienced priests and complete ritual arrangements at the Sangama."
-  />
-
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/kadali-vivaha-in-srirangapatna"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Kadali Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual"
-  />
-  <meta
-    property="og:description"
-    content="Perform Kadali Vivaha in Srirangapatna for Mangal Dosha removal and marriage harmony. Experienced priests and complete ritual arrangements at the Sangama."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/kadali-vivaha-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/kadali-vivaha.jpg"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Kadali Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Kadali Vivaha in Srirangapatna for Mangal Dosha removal and marriage harmony. Experienced priests and complete ritual arrangements at the Sangama."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/kadali-vivaha.jpg"
-  />
-  <script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-</Head>
+    
+     <Script
+        id="kumbha-vivaha-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       <StaticNavbarPuja/>
       <AboutBanner/>

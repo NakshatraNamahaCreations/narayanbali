@@ -11,7 +11,7 @@ import styles from "../styles/FloatingContacts.module.css";
 
 const contacts = [
   { id: "call", href: "tel:+918970901034", label: "Call", img: "/images/icons/call.png" },
-  { id: "wh", href: "https://wa.me/qr/76PO2SSITJBAC1", label: "WhatsApp", img: "/images/icons/whatsapp.png" },
+  { id: "wh", href: "https://api.whatsapp.com/send/?phone=918970901034&text&type=phone_number&app_absent=0", label: "WhatsApp", img: "/images/icons/whatsapp.png" },
  
  
 ];

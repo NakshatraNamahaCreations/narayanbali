@@ -1,6 +1,6 @@
-// app/page.js
+// app/pinda-pradhana-in-srirangapatna/page.js
 import Script from "next/script";
-import Head from "next/head";
+
 import FeaturedPujas2 from "../../components/FeaturedPujas2";
 import FooterSection from "../../components/FooterSection";
 import StaticNavbarPuja from "../../components/StaticNavbarPuja";
@@ -12,17 +12,18 @@ import WhyChooseUs2 from "../../components/WhyChooseUs2";
 import FloatingContacts2 from "../../components/FloatingContacts2";
 
 export const metadata = {
-  title: "Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha",
+  title: "Pinda Pradhana in Srirangapatna | Ancestral Ritual & Shraddha",
   description:
     "Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama.",
-
   alternates: {
     canonical:
       "https://narayanabalipoojaservices.com/services/pinda-pradhana-in-srirangapatna",
   },
+  keywords:
+  "pinda pradhana in srirangapatna, pinda pradhana pooja, pind daan srirangapatna, ancestral rituals srirangapatna, shraddha karma srirangapatna, pinda pradhana procedure, pind daan karnataka, pitrudosha remedies srirangapatna, pinda pradhana sangama, shraddha pooja karnataka, pind daan priests srirangapatna, shraddha ritual guidance, pinda pradhana benefits, ancestor peace rituals, pinda pradhana booking",
 
   openGraph: {
-    title: "Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha",
+    title: "Pinda Pradhana in Srirangapatna | Ancestral Ritual & Shraddha",
     description:
       "Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama.",
     url: "https://narayanabalipoojaservices.com/services/pinda-pradhana-in-srirangapatna",
@@ -35,11 +36,12 @@ export const metadata = {
         alt: "Pinda Pradhana in Srirangapatna",
       },
     ],
+    siteName: "Narayan Bali Pooja Services",
+    locale: "en_IN",
   },
-
   twitter: {
     card: "summary_large_image",
-    title: "Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha",
+    title: "Pinda Pradhana in Srirangapatna | Ancestral Ritual & Shraddha",
     description:
       "Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama.",
     images: [
@@ -47,7 +49,6 @@ export const metadata = {
     ],
   },
 };
-
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -61,12 +62,13 @@ const jsonLd = {
         "@id": "https://narayanabalipoojaservices.com/#organization"
       }
     },
+
     {
       "@type": "Organization",
       "@id": "https://narayanabalipoojaservices.com/#organization",
       "name": "Narayan Bali Pooja Services",
       "url": "https://narayanabalipoojaservices.com/",
-      "logo": "https://narayanabalipoojaservices.com/images/logo.png",
+      "logo": "/mnt/data/00707c1a-4c5a-439d-8e10-d1a8ab5fe300.png",
       "sameAs": [
         "https://www.facebook.com/people/Narayana-Bali-Pooja-Srirangapatna/61576010055294/",
         "https://www.instagram.com/srirangapatna_pooja_services/",
@@ -80,11 +82,12 @@ const jsonLd = {
         "availableLanguage": ["English", "Kannada"]
       }
     },
+
     {
       "@type": "LocalBusiness",
       "@id": "https://narayanabalipoojaservices.com/#localbusiness",
       "name": "Narayan Bali Pooja Services",
-      "image": "https://narayanabalipoojaservices.com/images/logo.png",
+      "image": "/mnt/data/00707c1a-4c5a-439d-8e10-d1a8ab5fe300.png",
       "url": "https://narayanabalipoojaservices.com/",
       "telephone": "+918970901034",
       "priceRange": "₹₹",
@@ -118,12 +121,13 @@ const jsonLd = {
       },
       "hasMap": "https://www.google.com/maps/place/12.4025627530612,76.70865688470852"
     },
+
     {
       "@type": "Service",
       "@id": "https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna#service",
       "name": "Pinda Pradhana",
       "description": "Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama.",
-      "image": "https://narayanabalipoojaservices.com/images/pinda-pradhana.jpg",
+      "image": "/mnt/data/00707c1a-4c5a-439d-8e10-d1a8ab5fe300.png",
       "serviceType": "Pinda Pradhana",
       "provider": {
         "@id": "https://narayanabalipoojaservices.com/#organization"
@@ -139,6 +143,7 @@ const jsonLd = {
       },
       "url": "https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna"
     },
+
     {
       "@type": "WebPage",
       "@id": "https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna#webpage",
@@ -147,13 +152,14 @@ const jsonLd = {
       "description": "Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://narayanabalipoojaservices.com/images/pinda-pradhana.jpg"
+        "url": "/mnt/data/00707c1a-4c5a-439d-8e10-d1a8ab5fe300.png"
       },
       "inLanguage": "en",
       "isPartOf": {
         "@id": "https://narayanabalipoojaservices.com/#website"
       }
     },
+
     {
       "@type": "BreadcrumbList",
       "@id": "https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna#breadcrumbs",
@@ -178,6 +184,7 @@ const jsonLd = {
         }
       ]
     },
+
     {
       "@type": "FAQPage",
       "@id": "https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna#faq",
@@ -272,78 +279,27 @@ const jsonLd = {
   ]
 };
 
-
-
-export default function Home() {
+export default function Page() {
   return (
     <>
-    <Head>
-  {/* Primary Meta Tags */}
-  <title>Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha</title>
-  <meta
-    name="description"
-    content="Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama."
-  />
+      <Script
+        id="pinda-pradhana-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna"
-  />
+      <StaticNavbarPuja />
+      <AboutBanner />
+      {/* <FeaturedPujas2 /> */}
 
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha"
-  />
-  <meta
-    property="og:description"
-    content="Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/pinda-pradhana-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/pinda-pradhana.jpg"
-  />
+      <RitualProcess2 />
+      <WhyChooseUs2 />
 
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Pinda Pradhana in Srirangapatna | ancestor Ritual & Shraddha"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Pinda Pradhana in Srirangapatna for ancestor peace and shraddha karma. Experienced priests with complete pooja arrangements at the sacred Sangama."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/pinda-pradhana.jpg"
-  />
-  {/* JSON-LD structured data */}
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-
-</Head>
-
-    <StaticNavbarPuja/>
-     <AboutBanner/>
-    {/* <FeaturedPujas2/> */}
-    
-    <RitualProcess2/>
-   
-    <WhyChooseUs2/>
-    
-    <FloatingContacts2 position="left" />
+      <FloatingContacts2 position="left" />
       <FloatingContacts position="right" />
-    {/* <TestimonialsCarousel/> */}
-      <FooterSection/>
+      {/* <TestimonialsCarousel /> */}
+      <FooterSection />
     </>
   );
 }

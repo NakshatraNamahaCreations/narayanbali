@@ -18,14 +18,17 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://narayanabalipoojaservices.com/kumbha-vivaha-in-srirangapatna",
+      "https://narayanabalipoojaservices.com/services/kumbha-vivaha-in-srirangapatna",
   },
+  
+keywords:
+  "kumbha vivaha in srirangapatna, kumbha vivaha pooja, mangal dosha remedy, kuja dosha nivarana, manglik dosha pooja, kumbha vivaha procedure, kumbha vivaha benefits, kumbha vivaha karnataka, mangal dosha parihara srirangapatna, kumbha vivaha sangama, kumbha vivaha priests srirangapatna, dosha nivarana rituals, vedic mangal dosha remedies, kumbha vivaha booking",
 
   openGraph: {
     title: "Kumbha Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual",
     description:
       "Perform Kumbha Vivaha in Srirangapatna for Mangal Dosha removal. Experienced priests, Vedic procedures, and complete ritual arrangements at the sacred Sangama.",
-    url: "https://narayanabalipoojaservices.com/kumbha-vivaha-in-srirangapatna",
+    url: "https://narayanabalipoojaservices.com/services/kumbha-vivaha-in-srirangapatna",
     type: "website",
     images: [
       {
@@ -279,59 +282,14 @@ const jsonLd = {
 export default function Home() {
   return (
     <>
-      <Head>
-  {/* Primary Meta Tags */}
-  <title>Kumbha Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual</title>
-  <meta
-    name="description"
-    content="Perform Kumbha Vivaha in Srirangapatna for Mangal Dosha removal. Experienced priests, Vedic procedures, and complete ritual arrangements at the sacred Sangama."
-  />
+    
+     <Script
+        id="kumbha-vivaha-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/kumbha-vivaha-in-srirangapatna"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Kumbha Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual"
-  />
-  <meta
-    property="og:description"
-    content="Perform Kumbha Vivaha in Srirangapatna for Mangal Dosha removal. Experienced priests, Vedic procedures, and complete ritual arrangements at the sacred Sangama."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/kumbha-vivaha-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/kumba-vivaha.jpg"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Kumbha Vivaha in Srirangapatna | Mangal Dosha Remedy Ritual"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Kumbha Vivaha in Srirangapatna for Mangal Dosha removal. Experienced priests, Vedic procedures, and complete ritual arrangements at the sacred Sangama."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/kumba-vivaha.jpg"
-  />
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-
-</Head>
 
     <StaticNavbarPuja/>
      <AboutBanner/>

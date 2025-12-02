@@ -1,6 +1,6 @@
-// app/page.js
+// app/tila-homa-in-srirangapatna/page.js
+import Script from "next/script";
 
-import Head from "next/head";
 import FeaturedPujas2 from "../../components/FeaturedPujas2";
 import FooterSection from "../../components/FooterSection";
 import StaticNavbarPuja from "../../components/StaticNavbarPuja";
@@ -11,7 +11,46 @@ import FloatingContacts from "../../components/FloatingContacts";
 import WhyChooseUs3 from "../../components/WhyChooseUs3";
 import FloatingContacts2 from "../../components/FloatingContacts2";
 
+// 1) Metadata for this route (Next injects <title>, meta, OG, canonical, Twitter)
+export const metadata = {
+  title: "Tila Homa in Srirangapatna | Pitru Dosha & Ancestral Ritual",
+  description:
+    "Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements.",
+ keywords:
+  "tila homa in srirangapatna, tila homam pooja, pitru dosha remedy srirangapatna, pitra dosh nivaran homa, ancestral rituals srirangapatna, tila homa karnataka, tila homam procedure, tila homa benefits, shraddha karma homa, pitru karma pooja, tila homa sangama, ancestral peace rituals, tila homa priests srirangapatna, pitru dosha parihara homa, tila homa booking",
 
+    openGraph: {
+    title: "Tila Homa in Srirangapatna | Pitru Dosha & Ancestral Ritual",
+    description:
+      "Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements.",
+    url: "https://narayanabalipoojaservices.com/services/tila-homa-in-srirangapatna",
+    type: "website",
+    siteName: "Narayan Bali Pooja Services",
+    locale: "en_IN",
+    images: [
+      {
+        url: "https://narayanabalipoojaservices.com/images/tila-homa.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tila Homa in Srirangapatna",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://narayanabalipoojaservices.com/services/tila-homa-in-srirangapatna",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tila Homa in Srirangapatna | Pitru Dosha & Ancestral Ritual",
+    description:
+      "Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements.",
+    images: [
+      "https://narayanabalipoojaservices.com/images/tila-homa.jpg",
+    ],
+  },
+};
+
+// 2) JSON-LD graph (your schema, unchanged, just reused)
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -238,75 +277,26 @@ const jsonLd = {
   ]
 };
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-     <Head>
-  {/* Primary Meta Tags */}
-  <title>Tila Homa in Srirangapatna | Pitru Dosha & ancestral Ritual</title>
-  <meta
-    name="description"
-    content="Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements."
-  />
+      {/* JSON-LD schema (correct way in app router) */}
+      <Script
+        id="tila-homa-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-  {/* Canonical URL */}
-  <link
-    rel="canonical"
-    href="https://narayanabalipoojaservices.com/tila-homa-in-srirangapatna"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="Tila Homa in Srirangapatna | Pitru Dosha & ancestral Ritual"
-  />
-  <meta
-    property="og:description"
-    content="Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements."
-  />
-  <meta
-    property="og:url"
-    content="https://narayanabalipoojaservices.com/tila-homa-in-srirangapatna"
-  />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://narayanabalipoojaservices.com/images/tila-homa.jpg"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Tila Homa in Srirangapatna | Pitru Dosha & ancestral Ritual"
-  />
-  <meta
-    name="twitter:description"
-    content="Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements."
-  />
-  <meta
-    name="twitter:image"
-    content="https://narayanabalipoojaservices.com/images/tila-homa.jpg"
-  />
-    {/* JSON-LD structured data */}
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-/>
-</Head>
-
-    <StaticNavbarPuja/>
-     <AboutBanner/>
-    {/* <FeaturedPujas2/> */}
-    
-    <RitualProcess3/>
-   
-    <WhyChooseUs3/>
-    
-    <FloatingContacts2 position="left" />
+      <StaticNavbarPuja />
+      <AboutBanner />
+      {/* <FeaturedPujas2 /> */}
+      <RitualProcess3 />
+      <WhyChooseUs3 />
+      <FloatingContacts2 position="left" />
       <FloatingContacts position="right" />
-    {/* <TestimonialsCarousel/> */}
-      <FooterSection/>
+      {/* <TestimonialsCarousel /> */}
+      <FooterSection />
     </>
   );
 }
