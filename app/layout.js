@@ -10,7 +10,13 @@ import SetVhClient from "./components/SetVhClient";
 export const metadata = {
   title: "NarayanBali",
   description: "NarayanBali site",
+  icons: {
+    icon: "/images/logo1.png",
+    shortcut: "/images/logo1.png",
+    apple: "/images/logo1.png",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (

@@ -58,7 +58,7 @@ export default function RitualProcess() {
             <div className={styles.aboutImageCard}>
               <Image
                 src="/images/narayanbali12.png"
-                alt="Mobile app & website development illustration"
+                alt="Narayana Bali Pooja "
                 fill
                 sizes="(max-width: 992px) 100vw, 520px"
                 priority
@@ -107,8 +107,8 @@ export default function RitualProcess() {
           <div className="col-lg-5">
           <div className={styles.aboutImageCard}>
               <Image
-                src="/images/narayanbali13.png"
-                alt="Mobile app & website development illustration"
+                src="/images/narayana1.jpg"
+                alt="Narayana Bali Pooja "
                 fill
                 sizes="(max-width: 992px) 100vw, 520px"
                 priority

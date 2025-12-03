@@ -39,7 +39,7 @@ const HowNarayanBaliWorks2 = () => {
           <div className="col-md-6 text-center position-relative mt-5 mt-md-0">
             <div className={styles.imageWrapper}>
                 <Image
-              src="/images/banner2.png"
+              src="/images/narayana3.jpg"
               alt="Narayan Bali Puja"
               width={600}
               height={400}
