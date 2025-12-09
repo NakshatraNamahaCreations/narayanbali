@@ -11,12 +11,11 @@ export const metadata = {
   title: "NarayanBali",
   description: "NarayanBali site",
   icons: {
-    icon: "/images/logo1.png",
-    shortcut: "/images/logo1.png",
-    apple: "/images/logo1.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (

@@ -69,14 +69,14 @@ export default function FooterSection() {
         />
         <a href="tel:+918660171434" className={styles.contactLink}>86601 71434</a>
       </li>
-      <li>
+      {/* <li>
         <img
           src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
           alt="Phone"
           className={styles.icon}
         />
         <a href="tel:+919448467213" className={styles.contactLink}>94484 67213</a>
-      </li>
+      </li> */}
       <li>
         {/* <img
           src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
