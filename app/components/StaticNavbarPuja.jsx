@@ -19,7 +19,7 @@ const NAV_LINKS = [
       { href: "/services/kumbha-vivaha-in-srirangapatna", label: "Kumbha Vivaha" },
       { href: "/services/kadali-vivaha-in-srirangapatna", label: "Kadali Vivaha" },
       { href: "/services/sarpa-dosha-nivarana-in-srirangapatna", label: "Sarpa Dosha Nivarana" },
-      { href: "/services/pithru-dosha-pooja-in-srirangapatna", label: "Pitru Dosha Pooja" },
+      { href: "/services/pitru-dosha-pooja-in-srirangapatna", label: "Pitru Dosha Pooja" },
     ],
   },
 

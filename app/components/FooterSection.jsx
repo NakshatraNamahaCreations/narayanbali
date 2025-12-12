@@ -16,12 +16,10 @@ export default function FooterSection() {
               devotional needs and spiritual services.
             </p>
     <div className={styles.socials}>
-  <a href="https://facebook.com" target="_blank" rel="noreferrer">
+  <a href="https://www.facebook.com/share/174XJvLPv2/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
   </a>
-  <a href="https://twitter.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" />
-  </a>
+
   <a href="https://www.instagram.com/srirangapatna_pooja_services/?igsh=c3VsMml4djJueW1o" target="_blank" rel="noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" />
   </a>
@@ -43,7 +41,7 @@ export default function FooterSection() {
               <li><a href="/services/kumbha-vivaha-in-srirangapatna">Kumbha Vivaha</a></li>
               <li><a href="/services/kadali-vivaha-in-srirangapatna">Kadali Vivaha</a></li>
                <li><a href="/services/sarpa-dosha-nivarana-in-srirangapatna">Sarpa Dosha Nivarana</a></li>
-               <li><a href="/services/pithru-dosha-pooja-in-srirangapatna">Pitru Dosha Nivarana</a></li>
+               <li><a href="/services/pitru-dosha-pooja-in-srirangapatna">Pitru Dosha Nivarana</a></li>
             </ul>
           </div>
 

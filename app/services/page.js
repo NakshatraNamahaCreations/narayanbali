@@ -15,23 +15,23 @@ import FloatingContacts2 from "../components/FloatingContacts2";
 export const metadata = {
   title: "Vedic Rituals & Pooja Services | Narayan Bali, Thila Homa",
   description:
-    "Explore all our spiritual services Narayan Bali Pooja, Pithru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar",
+    "Explore all our spiritual services Narayan Bali Pooja, Pitru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar",
   keywords: [
     "Pooja services",
     "Narayan Bali",
-    "Pithru Dosha Pooja",
+    "Pitru Dosha Pooja",
     "Thila Homa",
     "Sarpa Sanskar",
     "Kumbh Vivaha",
     "Vedic priests",
     "pooja booking",
     "ritual services",
-    "pitru karma"
+    "Pitru karma"
   ],
   openGraph: {
     title: "Vedic Rituals & Pooja Services | Narayan Bali, Thila Homa",
     description:
-      "Explore all our spiritual services Narayan Bali Pooja, Pithru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar",
+      "Explore all our spiritual services Narayan Bali Pooja, Pitru Dosha Nivarana, Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar",
     url: "https://narayanabalipoojaservices.com/services",
     siteName: "Narayan Bali Pooja Services",
     type: "website",
@@ -107,10 +107,10 @@ const jsonLdGraph = {
     },
     {
       "@type": "Service",
-      "@id": "https://narayanabalipoojaservices.com/services#pithru-dosha",
-      "name": "Pithru Dosha Nivarana",
-      "serviceType": "Pithru Dosha Nivarana",
-      "description": "Rituals to remove Pithru Dosha and restore harmony in family life, including Pinda Pradhana and related ceremonies.",
+      "@id": "https://narayanabalipoojaservices.com/services#Pitru-dosha",
+      "name": "Pitru Dosha Nivarana",
+      "serviceType": "Pitru Dosha Nivarana",
+      "description": "Rituals to remove Pitru Dosha and restore harmony in family life, including Pinda Pradhana and related ceremonies.",
       "provider": { "@id": "https://narayanabalipoojaservices.com/#organization" },
       "url": "https://narayanabalipoojaservices.com/services",
       "areaServed": { "@type": "Place", "name": "Srirangapatna, Mandya, Karnataka" },

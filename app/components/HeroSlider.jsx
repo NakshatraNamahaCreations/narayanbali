@@ -25,8 +25,8 @@ export default function HeroSlider() {
     {
       image: "/images/background16.png",
       mobileImage: "/images/background16-mobile.png",
-      alt: "PITRU DOSHA NIVARANA POOJA IN SRIRANGAPATNA",
-      title: "PITRU DOSHA NIVARANA POOJA IN SRIRANGAPATNA",
+      alt: "Pitru DOSHA NIVARANA POOJA IN SRIRANGAPATNA",
+      title: "Pitru DOSHA NIVARANA POOJA IN SRIRANGAPATNA",
       desc:
         "Resolve ancestral imbalances and remove the negative effects of Pitru Dosha. This pooja helps ensure spiritual peace for departed souls while bringing growth and wellbeing to the living generation.",
     },

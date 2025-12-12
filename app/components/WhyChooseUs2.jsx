@@ -88,7 +88,7 @@ const faqs = [
            
             <h2 className={styles.heading}> Why Perform Pinda Pradhana in Srirangapatna? </h2>  
               <p className={styles.subText}>
-              Srirangapatna​‍​‌‍​‍‌​‍​‌‍​‍‌ is considered to be the most religious place for the performance of the ancestral rites because of the Sangama, which is the confluence of the rivers Cauvery, Lokapavani, and Hemavati. A large number of devotees opt for Pinda Pradhana at Srirangapatna as the execution of rites at this holy riverbank elevates the efficacy of shraddha and pitru karma.
+              Srirangapatna​‍​‌‍​‍‌​‍​‌‍​‍‌ is considered to be the most religious place for the performance of the ancestral rites because of the Sangama, which is the confluence of the rivers Cauvery, Lokapavani, and Hemavati. A large number of devotees opt for Pinda Pradhana at Srirangapatna as the execution of rites at this holy riverbank elevates the efficacy of shraddha and Pitru karma.
             </p>
             <p className={styles.subText}>
             The spiritual vibe around the Sri Ranganathaswamy Temple also makes the overall experience more divine. Folks who decide to do Pinda Pradhana at Srirangapatna usually report having an overwhelming feeling of purification, oneness, and tranquility which in turn makes the ritual a potent substitute for the likes of ​‍​‌‍​‍‌​‍​‌‍​‍‌Gokarna.

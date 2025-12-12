@@ -21,7 +21,7 @@ export const metadata = {
   },
   
   keywords:
-  "narayan bali pooja in srirangapatna, narayana bali pooja srirangapatna, pitrudosh nivarana pooja, pitra dosh nivaran, narayan bali puja karnataka, narayan bali sangama, narayana bali ritual procedure, narayan bali pooja benefits, pitrudosha parihara srirangapatna, ancestor rituals srirangapatna, garuda purana narayan bali, narayan bali pooja booking, narayan bali priest srirangapatna, shraddha karma srirangapatna, sangama pooja",
+  "narayan bali pooja in srirangapatna, narayana bali pooja srirangapatna, Pitrudosh nivarana pooja, pitra dosh nivaran, narayan bali puja karnataka, narayan bali sangama, narayana bali ritual procedure, narayan bali pooja benefits, Pitrudosha parihara srirangapatna, ancestor rituals srirangapatna, garuda purana narayan bali, narayan bali pooja booking, narayan bali priest srirangapatna, shraddha karma srirangapatna, sangama pooja",
 
   openGraph: {
     title: "Narayan Bali Pooja in Srirangapatna | Pitrudosh Nivarana",

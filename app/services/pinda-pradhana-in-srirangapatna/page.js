@@ -20,7 +20,7 @@ export const metadata = {
       "https://narayanabalipoojaservices.com/services/pinda-pradhana-in-srirangapatna",
   },
   keywords:
-  "pinda pradhana in srirangapatna, pinda pradhana pooja, pind daan srirangapatna, ancestral rituals srirangapatna, shraddha karma srirangapatna, pinda pradhana procedure, pind daan karnataka, pitrudosha remedies srirangapatna, pinda pradhana sangama, shraddha pooja karnataka, pind daan priests srirangapatna, shraddha ritual guidance, pinda pradhana benefits, ancestor peace rituals, pinda pradhana booking",
+  "pinda pradhana in srirangapatna, pinda pradhana pooja, pind daan srirangapatna, ancestral rituals srirangapatna, shraddha karma srirangapatna, pinda pradhana procedure, pind daan karnataka, Pitrudosha remedies srirangapatna, pinda pradhana sangama, shraddha pooja karnataka, pind daan priests srirangapatna, shraddha ritual guidance, pinda pradhana benefits, ancestor peace rituals, pinda pradhana booking",
 
   openGraph: {
     title: "Pinda Pradhana in Srirangapatna | Ancestral Ritual & Shraddha",

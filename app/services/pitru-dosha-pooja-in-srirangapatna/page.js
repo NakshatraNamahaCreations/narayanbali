@@ -11,40 +11,40 @@ import WhyChooseUs7 from "../../components/WhyChooseUs7";
 import FloatingContacts2 from "../../components/FloatingContacts2";
 
 export const metadata = {
-  title: "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
+  title: "Pitru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
   description:
-    "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
+    "Perform Pitru Dosha Pooja in Srirangapatna for ancestral peace, Pitru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
 
   alternates: {
     canonical:
-      "https://narayanabalipoojaservices.com/services/pithru-dosha-pooja-in-srirangapatna",
+      "https://narayanabalipoojaservices.com/services/pitru-dosha-pooja-in-srirangapatna",
   },
 keywords:
-  "pithru dosha pooja in srirangapatna, pitru dosha nivarana, pitrudosha parihara pooja, pitra dosh puja karnataka, srirangapatna pitru dosha remedy, pitru dosha pooja procedure, pitra dosh nivaran vidhi, pitru dosha effects remedy, pitru dosha pooja sangama, pitra dosh dosha nivaran pooja, pitru karma rituals srirangapatna, shraddha karma pooja, garuda purana pitru rituals, ancestor dosha parihara pooja, pitru dosha pooja booking",
+  "Pitru dosha pooja in srirangapatna, Pitru dosha nivarana, Pitrudosha parihara pooja, pitra dosh puja karnataka, srirangapatna Pitru dosha remedy, Pitru dosha pooja procedure, pitra dosh nivaran vidhi, Pitru dosha effects remedy, Pitru dosha pooja sangama, pitra dosh dosha nivaran pooja, Pitru karma rituals srirangapatna, shraddha karma pooja, garuda purana Pitru rituals, ancestor dosha parihara pooja, Pitru dosha pooja booking",
 
   openGraph: {
-    title: "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
+    title: "Pitru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
     description:
-      "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
-    url: "https://narayanabalipoojaservices.com/services/pithru-dosha-pooja-in-srirangapatna",
+      "Perform Pitru Dosha Pooja in Srirangapatna for ancestral peace, Pitru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
+    url: "https://narayanabalipoojaservices.com/services/pitru-dosha-pooja-in-srirangapatna",
     type: "website",
     images: [
       {
-        url: "https://narayanabalipoojaservices.com/images/pithru-dosha.jpg",
+        url: "https://narayanabalipoojaservices.com/images/Pitru-dosha.jpg",
         width: 1200,
         height: 630,
-        alt: "Pithru Dosha Pooja in Srirangapatna",
+        alt: "Pitru Dosha Pooja in Srirangapatna",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
+    title: "Pitru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
     description:
-      "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
+      "Perform Pitru Dosha Pooja in Srirangapatna for ancestral peace, Pitru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
     images: [
-      "https://narayanabalipoojaservices.com/images/pithru-dosha.jpg",
+      "https://narayanabalipoojaservices.com/images/Pitru-dosha.jpg",
     ],
   },
 };
@@ -123,11 +123,11 @@ const jsonLd = {
     },
     {
       "@type": "Service",
-      "@id": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna#service",
-      "name": "Pithru Dosha Pooja",
-      "description": "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
-      "image": "https://narayanabalipoojaservices.com/images/pithru-dosha.jpg",
-      "serviceType": "Pithru Dosha Pooja",
+      "@id": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna#service",
+      "name": "Pitru Dosha Pooja",
+      "description": "Perform Pitru Dosha Pooja in Srirangapatna for ancestral peace, Pitru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
+      "image": "https://narayanabalipoojaservices.com/images/pitru-dosha.jpg",
+      "serviceType": "Pitru Dosha Pooja",
       "provider": {
         "@id": "https://narayanabalipoojaservices.com/#organization"
       },
@@ -140,17 +140,17 @@ const jsonLd = {
           "addressCountry": "IN"
         }
       },
-      "url": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna"
+      "url": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna"
     },
     {
       "@type": "WebPage",
-      "@id": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna#webpage",
-      "url": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna",
-      "name": "Pithru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
-      "description": "Perform Pithru Dosha Pooja in Srirangapatna for ancestral peace, Pithru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
+      "@id": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna#webpage",
+      "url": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna",
+      "name": "Pitru Dosha Pooja in Srirangapatna | Pitru Dosha Nivarana",
+      "description": "Perform Pitru Dosha Pooja in Srirangapatna for ancestral peace, Pitru Dosha removal, and family harmony with experienced priests at the sacred Sangama.",
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://narayanabalipoojaservices.com/images/pithru-dosha.jpg"
+        "url": "https://narayanabalipoojaservices.com/images/pitru-dosha.jpg"
       },
       "inLanguage": "en",
       "isPartOf": {
@@ -159,7 +159,7 @@ const jsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna#breadcrumbs",
+      "@id": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna#breadcrumbs",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -176,18 +176,18 @@ const jsonLd = {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Pithru Dosha Pooja",
-          "item": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna"
+          "name": "Pitru Dosha Pooja",
+          "item": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna#faq",
-      "url": "https://narayanabalipoojaservices.com/pithru-dosha-pooja-in-srirangapatna#faq",
+      "@id": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna#faq",
+      "url": "https://narayanabalipoojaservices.com/pitru-dosha-pooja-in-srirangapatna#faq",
       "image": {
         "@type": "ImageObject",
-        "url": "https://narayanabalipoojaservices.com/images/pithru-dosha.jpg"
+        "url": "https://narayanabalipoojaservices.com/images/pitru-dosha.jpg"
       },
       "mainEntity": [
         {
@@ -195,7 +195,7 @@ const jsonLd = {
           "name": "Who should perform this ritual?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "People with persistent obstacles often choose Pithru Dosha Pooja in Srirangapatna for relief."
+            "text": "People with persistent obstacles often choose Pitru Dosha Pooja in Srirangapatna for relief."
           }
         },
         {
@@ -211,7 +211,7 @@ const jsonLd = {
           "name": "Can women participate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Women may attend Pithru Dosha Pooja in Srirangapatna unless restricted traditionally."
+            "text": "Women may attend Pitru Dosha Pooja in Srirangapatna unless restricted traditionally."
           }
         },
         {
@@ -227,7 +227,7 @@ const jsonLd = {
           "name": "How long does it take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The full Pithru Dosha Pooja in Srirangapatna ritual takes 1.5 to 2 hours."
+            "text": "The full Pitru Dosha Pooja in Srirangapatna ritual takes 1.5 to 2 hours."
           }
         },
         {
@@ -243,7 +243,7 @@ const jsonLd = {
           "name": "Do priests follow Vedic rules?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely, Pithru Dosha Pooja in Srirangapatna is performed traditionally."
+            "text": "Absolutely, Pitru Dosha Pooja in Srirangapatna is performed traditionally."
           }
         },
         {
@@ -259,7 +259,7 @@ const jsonLd = {
           "name": "Can it help with health issues?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Pithru Dosha Pooja in Srirangapatna reduces ancestral energy disturbances."
+            "text": "Yes, Pitru Dosha Pooja in Srirangapatna reduces ancestral energy disturbances."
           }
         },
         {
@@ -267,7 +267,7 @@ const jsonLd = {
           "name": "Do you help with booking?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, full support is given for Pithru Dosha Pooja in Srirangapatna."
+            "text": "Yes, full support is given for Pitru Dosha Pooja in Srirangapatna."
           }
         }
       ]

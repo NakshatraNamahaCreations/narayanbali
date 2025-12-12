@@ -21,7 +21,7 @@ const STATS = [
   {
     id: 3,
     value: "10+",
-    label: "NARAYANA BALI & PITRU KARMAS DAILY",
+    label: "NARAYANA BALI & Pitru KARMAS DAILY",
     icon: "/images/kalasha (1).png",
     alt: "Om sacred symbol icon"
   },

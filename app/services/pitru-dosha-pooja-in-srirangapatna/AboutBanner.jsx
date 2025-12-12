@@ -17,11 +17,11 @@ export default function AboutBanner() {
           {/* <span>Our Services</span> */}
           <Link href="/services">Our Services</Link>
           <span className={styles.sep}>/</span>
-          <span>Pithru Dosha Pooja in Srirangapatna</span>
+          <span>Pitru Dosha Pooja in Srirangapatna</span>
         </p>
 
         {/* Title + subtitle */}
-        <h1 className={styles.title}>Pithru Dosha Pooja in Srirangapatna – Powerful Ritual for Ancestral Liberation </h1>
+        <h1 className={styles.title}>Pitru Dosha Pooja in Srirangapatna – Powerful Ritual for Ancestral Liberation </h1>
 
         <p className={styles.subtitle}>
           We bring sacred rituals closer to every devotee — performed with devotion, discipline, and the blessings of tradition.

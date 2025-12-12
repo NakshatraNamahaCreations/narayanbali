@@ -141,7 +141,7 @@ const faqs = [
           </p>
           <h2 className={styles.heading}> How We Perform Narayan Bali Pooja</h2>  
            <p className={styles.subText}>
-           Our​‍​‌‍​‍‌​‍​‌‍​‍‌ priests are very devotional and they do not miss even a single step of Garuda Purana ritual. They also ensure that it is done with purity and correctness. Narayan Bali Pooja in Srirangapatna starts with sankalpa, then comes pitru ahvana, where the ancestors are invoked to accept the offerings. Next, the pooja goes through Bali Karma and pind daan, which are the most important steps to help the soul to rest in peace and to get rid of any karmic bonds which are left unfinished.
+           Our​‍​‌‍​‍‌​‍​‌‍​‍‌ priests are very devotional and they do not miss even a single step of Garuda Purana ritual. They also ensure that it is done with purity and correctness. Narayan Bali Pooja in Srirangapatna starts with sankalpa, then comes Pitru ahvana, where the ancestors are invoked to accept the offerings. Next, the pooja goes through Bali Karma and pind daan, which are the most important steps to help the soul to rest in peace and to get rid of any karmic bonds which are left unfinished.
           </p>
           <p className={styles.subText}>
           By the end of the pooja, the mantras and offerings are like helpers for the soul that has left the body to get the spiritual support they need. The very last part of Narayan Bali Pooja in Srirangapatna is preta shanti and arati which are the signs of the completion of the soul’s journey to liberation. After the ritual, blessings are given for the welfare, harmony, and general prosperity of the family which is a great way to end a powerful Vedic ​‍​‌‍​‍‌​‍​‌‍​‍‌ceremony.

@@ -19,7 +19,7 @@ export const metadata = {
     "pooja team",
     "narayan bali story",
     "about us pooja services",
-    "pitru dosha experts",
+    "Pitru dosha experts",
   ],
   openGraph: {
     title: "About Sri Vivekananda Sharma | Narayan Bali Pooja Specialist",
@@ -76,7 +76,7 @@ const jsonLd = {
       },
       "knowsAbout": [
         "Narayan Bali Pooja",
-        "Pithru Dosha Nivarana",
+        "Pitru Dosha Nivarana",
         "Thila Homa",
         "Pinda Pradhana",
         "Ancestral Rituals",

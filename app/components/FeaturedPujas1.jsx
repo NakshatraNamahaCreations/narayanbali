@@ -13,7 +13,7 @@ const PUJAS = [
  
       {
     id: 8,
-    title: "pithru dosha pooja",
+    title: "Pitru dosha pooja",
       img: "/images/gallery3.png",
     gradient: "orange",
   },

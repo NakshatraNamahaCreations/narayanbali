@@ -17,12 +17,12 @@ import FloatingContacts2 from "./components/FloatingContacts2";
  * Page metadata (used for dev readability; actual tags injected in Head below)
  */
 export const metadata = {
-  title: "Narayan Bali Pooja | Pithru Dosha, Thila Homa, Vedic Rituals",
+  title: "Narayan Bali Pooja | Pitru Dosha, Thila Homa, Vedic Rituals",
   description:
-    "Experience Narayan Bali Pooja and Pithru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
+    "Experience Narayan Bali Pooja and Pitru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
   keywords: [
     "Narayan Bali Pooja",
-    "Pithru Dosha Pooja",
+    "Pitru Dosha Pooja",
     "Thila Homa",
     "Pinda Pradhana",
     "Kumbh Vivaha",
@@ -38,9 +38,9 @@ export const metadata = {
     "Hindu funeral rites",
   ],
   openGraph: {
-    title: "Narayan Bali Pooja | Pithru Dosha, Thila Homa, Vedic Rituals",
+    title: "Narayan Bali Pooja | Pitru Dosha, Thila Homa, Vedic Rituals",
     description:
-      "Experience Narayan Bali Pooja and Pithru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
+      "Experience Narayan Bali Pooja and Pitru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
     url: "https://narayanabalipoojaservices.com/",
     siteName: "Narayan Bali Pooja Services",
     type: "website",
@@ -138,7 +138,7 @@ const homeJsonLd = {
       },
       "knowsAbout": [
         "Narayan Bali Pooja",
-        "Pithru Dosha Nivarana",
+        "Pitru Dosha Nivarana",
         "Thila Homa",
         "Pinda Pradhana",
         "Ancestral Rituals"
@@ -153,9 +153,9 @@ const homeJsonLd = {
       "@type": "WebPage",
       "@id": "https://narayanabalipoojaservices.com/#webpage",
       "url": "https://narayanabalipoojaservices.com/",
-      "name": "Narayan Bali Pooja | Pithru Dosha, Thila Homa, Vedic Rituals",
+      "name": "Narayan Bali Pooja | Pitru Dosha, Thila Homa, Vedic Rituals",
       "description":
-        "Experience Narayan Bali Pooja and Pithru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
+        "Experience Narayan Bali Pooja and Pitru Dosha Nivarana rituals. Expert in Pinda Pradhana, Thila Homa, Kumbh Vivaha, Kadali Vivaha, and Sarpa Sanskar poojas.",
       "isPartOf": {
         "@id": "https://narayanabalipoojaservices.com/#website"
       },

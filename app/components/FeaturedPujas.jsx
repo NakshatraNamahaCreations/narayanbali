@@ -14,10 +14,10 @@ const PUJAS = [
   },
   {
     id: 8,
-    title: "Pithru Dosha Pooja",
+    title: "Pitru Dosha Pooja",
     img: "/images/gallery3.png",
     gradient: "orange",
-    link: "/services/pithru-dosha-pooja-in-srirangapatna"
+    link: "/services/pitru-dosha-pooja-in-srirangapatna"
   },
   {
     id: 7,

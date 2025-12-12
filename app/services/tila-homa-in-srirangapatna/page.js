@@ -17,7 +17,7 @@ export const metadata = {
   description:
     "Perform Tila Homa in Srirangapatna for Pitru Dosha Nivarana and ancestral peace. Experienced priests, sacred Sangama rituals, and full pooja arrangements.",
  keywords:
-  "tila homa in srirangapatna, tila homam pooja, pitru dosha remedy srirangapatna, pitra dosh nivaran homa, ancestral rituals srirangapatna, tila homa karnataka, tila homam procedure, tila homa benefits, shraddha karma homa, pitru karma pooja, tila homa sangama, ancestral peace rituals, tila homa priests srirangapatna, pitru dosha parihara homa, tila homa booking",
+  "tila homa in srirangapatna, tila homam pooja, Pitru dosha remedy srirangapatna, pitra dosh nivaran homa, ancestral rituals srirangapatna, tila homa karnataka, tila homam procedure, tila homa benefits, shraddha karma homa, Pitru karma pooja, tila homa sangama, ancestral peace rituals, tila homa priests srirangapatna, Pitru dosha parihara homa, tila homa booking",
 
     openGraph: {
     title: "Tila Homa in Srirangapatna | Pitru Dosha & Ancestral Ritual",

@@ -13,7 +13,7 @@ const PUJAS = [
   },
   {
     id: 8,
-    title: "Pithru Dosha Pooja",
+    title: "Pitru Dosha Pooja",
     img: "/images/gallery3.png",
     gradient: "orange",
     desc: "A ritual to remove ancestral curses and seek blessings from forefathers for family harmony and prosperity.",

@@ -40,13 +40,13 @@ export default function RitualProcess7() {
           {/* Left content */}
           <div className="col-lg-7">
             <h2 className={styles.aboutHeading}>
-            Pithru Dosha Pooja – Powerful Ritual for Ancestral Liberation
+            Pitru Dosha Pooja – Powerful Ritual for Ancestral Liberation
             </h2>
             <p className={styles.aboutText}>
-            Pithru​‍​‌‍​‍‌​‍​‌‍​‍‌ Dosha is an important ancestral imbalance, which is an area of studies in Vedic astrology, causing, among other things, the delayed situation of different life areas, and repeated emotional heaviness and obstacles. Pithru Dosha Pooja in Srirangapatna is widely chosen by the families to get relief from such discomfort and regain the lost equilibrium through the correct performance of the ancestor rituals. This holy pooja is a means of bringing tranquility to those who have passed away and freeing the living from the blockages that cause them to suffer.
+            Pitru​‍​‌‍​‍‌​‍​‌‍​‍‌ Dosha is an important ancestral imbalance, which is an area of studies in Vedic astrology, causing, among other things, the delayed situation of different life areas, and repeated emotional heaviness and obstacles. Pitru Dosha Pooja in Srirangapatna is widely chosen by the families to get relief from such discomfort and regain the lost equilibrium through the correct performance of the ancestor rituals. This holy pooja is a means of bringing tranquility to those who have passed away and freeing the living from the blockages that cause them to suffer.
             </p>
             <p className={styles.aboutText}>
-            It is believed that Pithru Dosha Pooja in Srirangapatna, performed with devotion, cleanses the ancestral energy field of the family, thus making the blessings of the ancestors flow once again without any hindrances. Many devotees thus attain spiritual and emotional relief upon the completion of this powerful ​‍​‌‍​‍‌​‍​‌‍​‍‌ritual.
+            It is believed that Pitru Dosha Pooja in Srirangapatna, performed with devotion, cleanses the ancestral energy field of the family, thus making the blessings of the ancestors flow once again without any hindrances. Many devotees thus attain spiritual and emotional relief upon the completion of this powerful ​‍​‌‍​‍‌​‍​‌‍​‍‌ritual.
            </p>
           </div>
     
@@ -104,7 +104,7 @@ export default function RitualProcess7() {
           <div className="col-lg-5">
           <div className={styles.aboutImageCard}>
               <Image
-                src="/images/pitrudosha.png"
+                src="/images/Pitrudosha.png"
                 alt="Mobile app & website development illustration"
                 fill
                 sizes="(max-width: 992px) 100vw, 520px"
@@ -118,13 +118,13 @@ export default function RitualProcess7() {
           {/* Right image */}
           <div className="col-lg-7">
           <h2 className={styles.aboutHeading}>
-          What is Pithru Dosha Pooja??
+          What is Pitru Dosha Pooja?
             </h2>
             <p className={styles.aboutText}>
-            Pithru​‍​‌‍​‍‌​‍​‌‍​‍‌ Dosha is a condition that arises when the ancestors are not comfortable due to lack of proper rites, deaths that happened abruptly, or shraddha karma that was missed. Pithru Dosha Pooja in Srirangapatna is the way to do the poojas that the soul needs for freedom. The ancestors are given food and help through the offerings, mantras, and pindas.
+            Pitru​‍​‌‍​‍‌​‍​‌‍​‍‌ Dosha is a condition that arises when the ancestors are not comfortable due to lack of proper rites, deaths that happened abruptly, or shraddha karma that was missed. Pitru Dosha Pooja in Srirangapatna is the way to do the poojas that the soul needs for freedom. The ancestors are given food and help through the offerings, mantras, and pindas.
              </p>
            <p className={styles.aboutText}>
-           The Pithru Dosha Pooja in Srirangapatna is mainly done to get rid of the ancestral disturbances that block the flow of good health, marriage, finances, and emotional stability. This is one of the strongest antidotes for a family's welfare to be back ​‍​‌‍​‍‌​‍​‌‍​‍‌again.
+           The Pitru Dosha Pooja in Srirangapatna is mainly done to get rid of the ancestral disturbances that block the flow of good health, marriage, finances, and emotional stability. This is one of the strongest antidotes for a family welfare to be back ​‍​‌‍​‍‌​‍​‌‍​‍‌again.
             </p>
           </div>
         </div>

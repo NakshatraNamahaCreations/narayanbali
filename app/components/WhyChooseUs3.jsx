@@ -114,7 +114,7 @@ const faqs = [
           • as Tila Homa in Srirangapatna is performed using the sacred grain, the ritual not only takes care of spiritual liberation but also the offering of food to the departed souls, thus it becomes a nice circular gesture of nourishment and spiritual freedom.
            </p>
            <p className={styles.subText}>
-          • Families who are going through the troube of the pitru dosha, might get relief after the event of Tila Homa in Srirangapatna returns the lineage to a balanced state.
+          • Families who are going through the troube of the Pitru dosha, might get relief after the event of Tila Homa in Srirangapatna returns the lineage to a balanced state.
            </p> 
            <p className={styles.subText}>
           • among health problems, delays, and the recurring negativities that may be happening, these will lessen if Tila Homa in Srirangapatna is done to unblock energies and purify them.

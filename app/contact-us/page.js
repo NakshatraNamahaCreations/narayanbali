@@ -13,11 +13,11 @@ import FloatingContacts2 from "../components/FloatingContacts2";
 export const metadata = {
   title: "Contact Narayan Bali Pooja Services | Book Your Ritual",
   description:
-    "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pithru Dosha, Thila Homa, or Pinda Pradhana pooja",
+    "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pitru Dosha, Thila Homa, or Pinda Pradhana pooja",
   openGraph: {
     title: "Contact Narayan Bali Pooja Services | Book Your Ritual",
     description:
-      "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pithru Dosha, Thila Homa, or Pinda Pradhana pooja",
+      "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pitru Dosha, Thila Homa, or Pinda Pradhana pooja",
     url: "https://narayanabalipoojaservices.com/contact-us",
     type: "website",
     images: [
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Contact Narayan Bali Pooja Services | Book Your Ritual",
     description:
-      "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pithru Dosha, Thila Homa, or Pinda Pradhana pooja",
+      "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pitru Dosha, Thila Homa, or Pinda Pradhana pooja",
     images: [
       "https://narayanabalipoojaservices.com/images/contact-og.jpg",
     ],
@@ -52,7 +52,7 @@ const jsonLd = {
   "url": "https://narayanabalipoojaservices.com/contact",
   "name": "Contact Narayan Bali Pooja Services | Book Your Ritual",
   "description":
-    "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pithru Dosha, Thila Homa, or Pinda Pradhana pooja",
+    "Get in touch with Sri Vivekananda Sharma for Narayan Bali Pooja and other Vedic rituals. Call us to book Pitru Dosha, Thila Homa, or Pinda Pradhana pooja",
   "mainEntity": {
     "@type": "LocalBusiness",
     "name": "Narayan Bali Pooja Services",
